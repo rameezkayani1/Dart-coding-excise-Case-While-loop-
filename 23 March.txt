@@ -1,0 +1,170 @@
+<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>
+
+main() {
+  stdout.write("Plese enter number to check Day >>>> ");
+  String? no1 = stdin.readLineSync();
+  int n = int.parse(no1!);
+  switch (n) {
+    case 1:
+      print("Friday");
+      break;
+    case 2:
+      print("Saturday");
+      break;
+    case 3:
+      print("Sunday");
+      break;
+    case 4:
+      print("Monday");
+      break;
+    case 5:
+      print("Thuesday");
+      break;
+    case 6:
+      print("Wednesday");
+      break;
+    case 7:
+      print("Thrusday");
+      break;
+    default:
+      {
+        print("Invaild Number Enter");
+      }
+  }
+}
+
+
+<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>
+
+
+main() {
+  stdout.write("Plese Chararcter to check its Volwel & Not >>>> ");
+  String? ch = stdin.readLineSync();
+  switch (ch) {
+    case 'a':
+    case 'A':
+    case 'e':
+    case 'E':
+    case 'i':
+    case 'I':
+    case 'o':
+    case 'O':
+    case 'u':
+    case 'U':
+      print("you Entered a Volwel ");
+      break;
+    default:
+      {
+        print("you Enterd a non Volwe charactertices");
+      }
+  }
+}
+  
+
+<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>
+
+main() {
+  stdout.write("Plese Enter a First Numebr >>>> ");
+  String? first = stdin.readLineSync();
+  double fno = double.parse(first!);
+  stdout.write("Plese Enter a opertaor >>>> ");
+  String? op = stdin.readLineSync();
+  stdout.write("Plese Enter a Second  Numebr >>>> ");
+  String? second = stdin.readLineSync();
+  int sno = int.parse(second!);
+  switch (op) {
+    case '+':
+      print("${fno + sno}");
+      break;
+    case '-':
+      print("${fno - sno}");
+      break;
+    case '*':
+      print("${fno * sno}");
+      break;
+    case '/':
+      print("${fno / sno}");
+      break;
+    default:
+      {
+        print("Invaild ");
+      }
+  }
+}
+
+
+>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<
+
+main() {
+  int charges;
+  stdout.write("Health Club MemberShip Menu \n ");
+  stdout.write("1.Standard Adult MemberShip \n ");
+  stdout.write("2.Child Membership \n ");
+  stdout.write("3.Senior Citizen Membership \n ");
+  stdout.write("4.Quit The Program \n ");
+  stdout.write("Please select one ");
+  String? choice = stdin.readLineSync();
+  int cho = int.parse(choice!);
+  stdout.write("How many Month requried Subscripation");
+  String? mon = stdin.readLineSync();
+  int month = int.parse(mon!);
+  switch (cho) {
+    case 1:
+      charges = month * 50;
+      print("Total Charges is $charges");
+      break;
+    case 2:
+      charges = month * 20;
+      print("Total Charges is $charges");
+      break;
+    case 3:
+      charges = month * 30;
+      print("Total Charges is $charges");
+      break;
+    default:
+      {
+        print("Please Choice 1 to 3");
+      }
+  }
+}
+
+
+<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+main() {
+  stdout.write("Please Enter your Marks >>>> ");
+  String? mark = stdin.readLineSync();
+  int marks = int.parse(mark!);
+  String result = marks > 40 ? 'Pass' : 'Fail';
+  print("$result");
+}
+
+
+<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+main() {
+  stdout.write("Please Enter to check its Divideable by 3 & not >>>> ");
+  String? number = stdin.readLineSync();
+  int no = int.parse(number!);
+  String divide = no % 3 == 0 ? 'dividable by 3' : 'not diviable by 3';
+  print("$divide");
+}
+
+
+<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+main() {
+  stdout.write("Please Enter Number >>>> ");
+  String? no = stdin.readLineSync();
+  int i = 0;
+  while (i <= 5) {
+    print("$no");
+    i++;
+  }
+}
+
+
+<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
